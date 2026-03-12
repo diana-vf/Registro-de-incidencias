@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head><title>Sistema de Incidencias</title>
+<link rel="styles.css" href="styles.css"></head>
+<body>
+    <nav>
+        <a href="index.html">Registro</a>
+    </nav>
+    <div class="container">
+        <h2>Registro de Incidencias</h2>
+        <form id="form">
+            <input type="text" id="Nombre completo" required>
+            
+            <select id="tipo">
+                <option>Estudiante</option>
+                <option>Externo</option>
+                <option>Otro</option>
+            </select>
+            <Input type="text" id="id" placeholder="Carrera o área">
+                <input type="text" id="telefono" placeholder="Telefono">
+                <input type="date" id="fecha">
+                <input type="text" id="motivo" placeholder="Motivo">
+                <textarea id="descripcion" placeholder="Descripció"></textarea>
+                <input type="text" id="personal" placeholder="Personal que atendió">
+                <button type="sumit">Guardar incidencia</button>
+</input>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
